@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title Title
+    body
+        form#regForm(action="", enctype="multipart/form-data", method="post")
+            p
+                i 用户名:
+                span
+                    input#username(type="text", name="username", value="")
+            p
+                i 密码:
+                span
+                    input#password(type="text", name="password", value="")
+            p
+                i 重复密码:
+                span
+                    input#resetPassword(type="text", name="resetPassword", value="")
+            p
+                i 手机号码:
+                span
+                    input#phone(type="text", name="phone", value="")
+            p
+                i 上传头像
+                span
+                    input#hadePhoto(type="file", name="upHadePhoto")
+                    input#upPhotofile(type="button", value="上传")
+            p
+                input#sendRegister(type="button", value="注册")
+        script(src="/libs/jquery.js")
+        script(src="/js/register.js")

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style>
+	.box {  width: 500px; height: 500px; background: url(src/assets/images/main_bg.jpg) no-repeat; background-size: cover;
+		animation: sss 50s infinite;
+		-webkit-animation: sss 50s infinite;
+	}
+
+	keyframes 'sss' {
+		0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(2);
+        }
+	}
+
+	@-webkit-keyframes 'sss' {
+		0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(2);
+        }
+	}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+	sss
+</div>
+
+
+
+	
+</body>
+</html>

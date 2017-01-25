@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+
+<body>
+
+<div class="reg">
+    <form action="" id="regForm"  enctype="multipart/form-data" method="post">
+        <p>
+            <i>用户名:</i><span><input type="text" id="username" name="username" value="" /></span>
+        </p>
+        <p>
+            <i>密码:</i><span><input type="text" id="password" name="password" value="" /></span>
+        </p>
+        <p>
+            <i>重复密码:</i><span><input type="text" id="resetPassword" name="resetPassword" value="" /></span>
+        </p>
+        <p>
+            <i>手机号码:</i><span><input type="text" id="phone" name="phone" value="" /></span>
+        </p>
+        <p>
+            <input type="hidden" name="hadeFilePath" id="hadeFilePath" value="" >
+            <i>上传头像</i><span><input type="file" name="upfile" id="hadePhoto"> <input type="button" id="upPhotofile" value="上传" ></span>
+        </p>
+        <p>
+            <input type="button" id="sendRegister" value="注册">
+        </p>
+    </form>
+</div>
+
+<script src="/libs/jquery.js"></script>
+<script src="/js/register.js"></script>
+
+</body>
+</html>
